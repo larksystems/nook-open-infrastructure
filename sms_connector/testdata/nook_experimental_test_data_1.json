@@ -1,0 +1,1130 @@
+{
+  "conversationTags": [
+    {
+      "shortcut": "a",
+      "type": "TagType.normal",
+      "text": "active case",
+      "__id": "tag-0aa8b45a",
+      "__reference_path": "conversationTags/tag-0aa8b45a",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "closed case",
+      "shortcut": "c",
+      "__id": "tag-12be10d3",
+      "__reference_path": "conversationTags/tag-12be10d3",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "u",
+      "type": "TagType.important",
+      "text": "URGENT",
+      "__id": "tag-14ea0e13",
+      "__reference_path": "conversationTags/tag-14ea0e13",
+      "__subcollections": []
+    },
+    {
+      "text": "SENSITIVE",
+      "shortcut": "s",
+      "type": "TagType.important",
+      "__id": "tag-acc357d0",
+      "__reference_path": "conversationTags/tag-acc357d0",
+      "__subcollections": []
+    }
+  ],
+  "messageTags": [
+    {
+      "text": "registration_fingerprint",
+      "shortcut": "f",
+      "type": "TagType.normal",
+      "__id": "tag-01a0867b",
+      "__reference_path": "messageTags/tag-01a0867b",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "g",
+      "type": "TagType.normal",
+      "text": "need_food",
+      "__id": "tag-0375a4ff",
+      "__reference_path": "messageTags/tag-0375a4ff",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "m",
+      "type": "TagType.normal",
+      "text": "Card holder passed away Baidoa",
+      "__id": "tag-070e309b",
+      "__reference_path": "messageTags/tag-070e309b",
+      "__subcollections": []
+    },
+    {
+      "text": "need_education",
+      "shortcut": "d",
+      "type": "TagType.normal",
+      "__id": "tag-1bd76e8e",
+      "__reference_path": "messageTags/tag-1bd76e8e",
+      "__subcollections": []
+    },
+    {
+      "text": "Lost SCOPE card Baidoa",
+      "shortcut": "n",
+      "type": "TagType.normal",
+      "__id": "tag-297be1c5",
+      "__reference_path": "messageTags/tag-297be1c5",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "request_for_mobile_money",
+      "shortcut": "z",
+      "__id": "tag-3c5ffe96",
+      "__reference_path": "messageTags/tag-3c5ffe96",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "not_received_money_Baidoa",
+      "shortcut": "k",
+      "__id": "tag-3eedeb3b",
+      "__reference_path": "messageTags/tag-3eedeb3b",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "h",
+      "type": "TagType.normal",
+      "text": "need_health_services",
+      "__id": "tag-3efeab04",
+      "__reference_path": "messageTags/tag-3efeab04",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "need_employment",
+      "shortcut": "q",
+      "__id": "tag-43f5a6a3",
+      "__reference_path": "messageTags/tag-43f5a6a3",
+      "__subcollections": []
+    },
+    {
+      "text": "need_education",
+      "shortcut": "d",
+      "type": "TagType.normal",
+      "__id": "tag-51b1e53f",
+      "__reference_path": "messageTags/tag-51b1e53f",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "s",
+      "type": "TagType.normal",
+      "text": "more_money",
+      "__id": "tag-5b530db6",
+      "__reference_path": "messageTags/tag-5b530db6",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "c",
+      "type": "TagType.normal",
+      "text": "In different location Baidoa",
+      "__id": "tag-67681526",
+      "__reference_path": "messageTags/tag-67681526",
+      "__subcollections": []
+    },
+    {
+      "text": "lost_SCOPE_card",
+      "shortcut": "a",
+      "type": "TagType.normal",
+      "__id": "tag-6d70dbc8",
+      "__reference_path": "messageTags/tag-6d70dbc8",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "z",
+      "type": "TagType.normal",
+      "text": "request_for_mobile_money",
+      "__id": "tag-7791d8fc",
+      "__reference_path": "messageTags/tag-7791d8fc",
+      "__subcollections": []
+    },
+    {
+      "text": "need_food",
+      "shortcut": "g",
+      "type": "TagType.normal",
+      "__id": "tag-79d41fc7",
+      "__reference_path": "messageTags/tag-79d41fc7",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "m",
+      "type": "TagType.normal",
+      "text": "Card holder passed away Baidoa",
+      "__id": "tag-8abf2e31",
+      "__reference_path": "messageTags/tag-8abf2e31",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "v",
+      "type": "TagType.normal",
+      "text": "IP location unknown Baidoa",
+      "__id": "tag-8d058938",
+      "__reference_path": "messageTags/tag-8d058938",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "need_shelter",
+      "shortcut": "j",
+      "__id": "tag-90ccf475",
+      "__reference_path": "messageTags/tag-90ccf475",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "registration_fingerprint",
+      "shortcut": "f",
+      "__id": "tag-99ce5181",
+      "__reference_path": "messageTags/tag-99ce5181",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "l",
+      "type": "TagType.normal",
+      "text": "request_for_continuation",
+      "__id": "tag-a1fabe5d",
+      "__reference_path": "messageTags/tag-a1fabe5d",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "h",
+      "type": "TagType.normal",
+      "text": "need_health_services",
+      "__id": "tag-a7bb921b",
+      "__reference_path": "messageTags/tag-a7bb921b",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "unable_to_redeem_sickness_disability_Baidoa",
+      "shortcut": "x",
+      "__id": "tag-acf53c83",
+      "__reference_path": "messageTags/tag-acf53c83",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "q",
+      "type": "TagType.normal",
+      "text": "need_employment",
+      "__id": "tag-ada13957",
+      "__reference_path": "messageTags/tag-ada13957",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "IP location unknown Baidoa",
+      "shortcut": "v",
+      "__id": "tag-ae6f9dc6",
+      "__reference_path": "messageTags/tag-ae6f9dc6",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "l",
+      "type": "TagType.normal",
+      "text": "request_for_continuation",
+      "__id": "tag-b625d5cc",
+      "__reference_path": "messageTags/tag-b625d5cc",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "not_received_money_Baidoa",
+      "shortcut": "k",
+      "__id": "tag-b738678f",
+      "__reference_path": "messageTags/tag-b738678f",
+      "__subcollections": []
+    },
+    {
+      "text": "more_money",
+      "shortcut": "s",
+      "type": "TagType.normal",
+      "__id": "tag-c45cf2c0",
+      "__reference_path": "messageTags/tag-c45cf2c0",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "x",
+      "type": "TagType.normal",
+      "text": "unable_to_redeem_sickness_disability_Baidoa",
+      "__id": "tag-cff49b18",
+      "__reference_path": "messageTags/tag-cff49b18",
+      "__subcollections": []
+    },
+    {
+      "type": "TagType.normal",
+      "text": "Issue with the alternate Baidoa",
+      "shortcut": "b",
+      "__id": "tag-d1cf8051",
+      "__reference_path": "messageTags/tag-d1cf8051",
+      "__subcollections": []
+    },
+    {
+      "text": "Lost SCOPE card Baidoa",
+      "shortcut": "n",
+      "type": "TagType.normal",
+      "__id": "tag-ece38c1b",
+      "__reference_path": "messageTags/tag-ece38c1b",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "b",
+      "type": "TagType.normal",
+      "text": "Issue with the alternate Baidoa",
+      "__id": "tag-ed16a1f2",
+      "__reference_path": "messageTags/tag-ed16a1f2",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "c",
+      "type": "TagType.normal",
+      "text": "In different location Baidoa",
+      "__id": "tag-f1501b2e",
+      "__reference_path": "messageTags/tag-f1501b2e",
+      "__subcollections": []
+    },
+    {
+      "text": "lost_SCOPE_card",
+      "shortcut": "a",
+      "type": "TagType.normal",
+      "__id": "tag-f4881552",
+      "__reference_path": "messageTags/tag-f4881552",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "j",
+      "type": "TagType.normal",
+      "text": "need_shelter",
+      "__id": "tag-f606141a",
+      "__reference_path": "messageTags/tag-f606141a",
+      "__subcollections": []
+    }
+  ],
+  "suggestedReplies": [
+    {
+      "shortcut": "5",
+      "translation": "Thank you for raising your issue with UNICEF. This is the final cash distribution and will be delivered via the SCOPE card only. At the moment, we cannot use mobile money because it is vulnerable to fraud and we can reach beneficiaries more effectively using SCOPE cards.",
+      "text": "Waad ku mahadsan tahay in aad arrintaada la soo socodsiisey UNICEF. Tani waa lacag-bixintii ugu dambeysey waxaana bixinteeda la soo marin doonaa keliya kaarka SCOPE. Waqtigaan, ma isticmaali karno lacagta la isugu diro telefoonka gacanta sababta oo ah waxaa uu u nugul yahay in khiyaanno lagu sameeyo waxaana aan ka-faa'iideystayaasha si hufan u gaari karnaa marka aad adeegsanno kaararka SCOPE.",
+      "__id": "reply-024bd111",
+      "__reference_path": "suggestedReplies/reply-024bd111",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "12",
+      "translation": "How much did you pay?",
+      "text": "Immisa lacag ah ayaad bixisay?",
+      "__id": "reply-6f84b7a7",
+      "__reference_path": "suggestedReplies/reply-6f84b7a7",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "2",
+      "translation": "We are sorry to hear that. Please send the registered alternate to WVI\u2019s office in Wajid to redeem the cash.",
+      "text": "Waan kaxunahay taas. Fadlan soo dir qofka beddelka ah ee u diiwaangashan SCOPE si lacagta laguu soo direy uu uga soo saaro xafiiska WVI ee magalada Wajid.",
+      "__id": "reply-72467534",
+      "__reference_path": "suggestedReplies/reply-72467534",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "3",
+      "translation": "If there is any further assistance you need from UNICEF please tell us",
+      "text": "Hadii ay jirto wax caawinaad dheeraad ah oo aad uga baahan tahay UNICEF fadlan noo soo sheeg",
+      "__id": "reply-783e4844",
+      "__reference_path": "suggestedReplies/reply-783e4844",
+      "__subcollections": []
+    },
+    {
+      "translation": "Thanks for letting us know your issue with the UNICEF cash assistance. We are investigating the delays and will inform you as soon as we have more information",
+      "text": "Waad ku mahadsantihiin inaad noo soo sheegtay dhibaatada aad kala kulantay kaalmada lacageed ee UNICEF. Waxaanu baaraynaa dib udaca jiro waana kula soo socosinayanaa wixii macluumaad dheeraad ah.",
+      "shortcut": "10",
+      "__id": "reply-7bd81283",
+      "__reference_path": "suggestedReplies/reply-7bd81283",
+      "__subcollections": []
+    },
+    {
+      "text": "Ma noo sheegi karta sabaabta lacagta lagaaga qaaday?",
+      "shortcut": "13",
+      "translation": "Can you tell us why you were asked to pay?",
+      "__id": "reply-804482d9",
+      "__reference_path": "suggestedReplies/reply-804482d9",
+      "__subcollections": []
+    },
+    {
+      "text": "Waad ku mahadsan tahay in aad lawadagtid UNICEF \u00a0baahidaada.Lacagta kaashka ah ee waqtigan la bixinayo waxaa loo xisaabiyey in lagu bixiyo baahiyada ee qoyska. Inkasto aan soo dhoweyneyno \u00a0haddana waxaa laga yaabaa in dhammaan qoysasku aaney xaaladdoodu sinen waxaan ku khasbannahay in qiimaha lacagta aan bixinno uu $X ahaado si aan u gaarno hooyoyinka ugu badan ee baahida qaban.",
+      "shortcut": "4",
+      "translation": "Thanks for letting UNICEF know of your needs. The current cash transfer amount is calculated to cover immediate household needs. Although we appreciate this value may not be sufficient for all households, we need to keep the transfer value at $X to reach as many mothers in your community as possible.",
+      "__id": "reply-a7ff8a09",
+      "__reference_path": "suggestedReplies/reply-a7ff8a09",
+      "__subcollections": []
+    },
+    {
+      "text": "Kaarkaga cusubi ee SCOPE waa diyaar fadlan kadoono xafiiska WVI. Waxaa la xaqiijin doonaa sawirkaaga iyo in dib lagaaga qaado faraha si ay kuku fududaato helida lacagta aad xaqa uleedahay",
+      "shortcut": "0",
+      "translation": "Your new SCOPE card is ready for collection at the WVI office. They will verify your photo and re-take your fingerprints so that you can access your entitlement easily.",
+      "__id": "reply-b22fdf4a",
+      "__reference_path": "suggestedReplies/reply-b22fdf4a",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "8",
+      "translation": "Thank you, we\u2019ll get back to you as soon as we can",
+      "text": "Mahadsanid, waan kugu soo warcelin doonaa.",
+      "__id": "reply-b96cef76",
+      "__reference_path": "suggestedReplies/reply-b96cef76",
+      "__subcollections": []
+    },
+    {
+      "translation": "We are sorry you had to pay a fee to receive your entitlement, and we\u2019d like to ask you \u00a0a few more questions in order to assist you assist you. Who did you pay?",
+      "text": "Waan ka xunnahay inaad bixiso lacag si aad u hesho xaqaaga, waxaanan jeclaan lahayn inaan ku weydiino dhowr su'aalood oo dheeraad ah si aan kuu caawino. Yaad lacagta siisay?",
+      "shortcut": "11",
+      "__id": "reply-c44394e9",
+      "__reference_path": "suggestedReplies/reply-c44394e9",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "7",
+      "translation": "Thank you. What is the name of the alternate registered to collect the cash?",
+      "text": "Mahadsanid. Waa maxay magaca qofka beddelka ah ee u diiwaangashan kaarka SCOPE?",
+      "__id": "reply-c44443e2",
+      "__reference_path": "suggestedReplies/reply-c44443e2",
+      "__subcollections": []
+    },
+    {
+      "text": "Mahadsanid. Waxaanu kuu samayn doonaa kaar SCOPE oo cusub oo kaqaadan kartid xafiiska WVI. Waxaad heli doontaa fariin marka uu kaarkaagu diyaar uu yahay",
+      "shortcut": "9",
+      "translation": "Thank you. We will process a new SCOPE card and send it to the WVI office. You will receive an SMS when the card is ready for collection.",
+      "__id": "reply-ccbd98d3",
+      "__reference_path": "suggestedReplies/reply-ccbd98d3",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "5",
+      "translation": "We apologise for any inconvenience caused and will help you access your entitlement again. We need to ask you a few questions so that we can get a new SCOPE card issued for you.",
+      "text": "Waxaan raaligelineynaa wixii dhib ah ee lakulantay. Waxaan iskudayeenaa inaan kaa caawino arintaan. Waxaan u baahannahay inaan ku weydiino dhowr su'aalood si laguugu soo saaro kaar cusub ee SCOPE",
+      "__id": "reply-d01a9328",
+      "__reference_path": "suggestedReplies/reply-d01a9328",
+      "__subcollections": []
+    },
+    {
+      "shortcut": "6",
+      "translation": "When did you last collect your cash?",
+      "text": "Goorma ayaa kugu dambaysay lacagta oo aad qaadato?",
+      "__id": "reply-fdd4aa2d",
+      "__reference_path": "suggestedReplies/reply-fdd4aa2d",
+      "__subcollections": []
+    },
+    {
+      "translation": "This is an important message from UNICEF to inform you that there will be delays in the cash distribution. We will update you once the cash is ready. Thank you.",
+      "text": "Tani waa farriin muhiim ah oo ka socota UNICEF si ay kuugu sheegto in ay jirto dib u dhac xaga qaybinta lacagta caddaanka ah. Waanu kula socodsiin doonaa markii lacagta diyaar tahay. Mahadsanid.",
+      "shortcut": "1",
+      "__id": "\ufeffreply-024bd111",
+      "__reference_path": "suggestedReplies/\ufeffreply-024bd111",
+      "__subcollections": []
+    }
+  ],
+  "sms_raw_msgmap": [
+    {
+      "updated": "2019-12-01T12:13:49.957013",
+      "messages": [
+        {
+          "direction": "MessageDirection.out",
+          "text": "Test ad!",
+          "created_on": "2019-09-02T06:47:14.267126+00:00"
+        },
+        {
+          "text": "Test ad!",
+          "direction": "MessageDirection.out",
+          "created_on": "2019-09-02T06:51:14.139242+00:00"
+        }
+      ],
+      "__id": "nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+      "__reference_path": "sms_raw_msgmap/nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+      "__subcollections": []
+    },
+    {
+      "updated": "2019-12-01T12:13:49.717442",
+      "messages": [
+        {
+          "direction": "MessageDirection.out",
+          "text": "Test ad!",
+          "created_on": "2019-09-02T06:47:14.267075+00:00"
+        },
+        {
+          "created_on": "2019-09-02T06:51:14.139177+00:00",
+          "direction": "MessageDirection.out",
+          "text": "Test ad!"
+        }
+      ],
+      "__id": "nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+      "__reference_path": "sms_raw_msgmap/nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+      "__subcollections": []
+    }
+  ],
+  "tables/uuid-table/mappings": [
+    {
+      "uuid": "nook-phone-uuid-91755b17-3f7e-429c-934c-9ed402d715f7",
+      "__id": "telegram:0123456789-10",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-10",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+      "__id": "telegram:0123456789-11",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-11",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-2776e51d-752b-4099-9e44-d281f103d5e0",
+      "__id": "telegram:0123456789-3",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-3",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-41c30eb1-248b-497e-bc99-a0918d74f76c",
+      "__id": "telegram:0123456789-5",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-5",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-51524bde-4de4-4322-b25c-4dded9360930",
+      "__id": "telegram:0123456789-6",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-6",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-7e9ec0f8-bee1-4f3c-bf3e-865227c75f3e",
+      "__id": "telegram:0123456789-8",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-8",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-05caf6eb-4277-433a-ab9b-f34e91365784",
+      "__id": "telegram:0123456789-1",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-1",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+      "__id": "telegram:0123456789-12",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-12",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-125a04d0-24d3-4dc2-b40a-56d576583991",
+      "__id": "telegram:0123456789-2",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-2",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-3502c88e-3582-4895-96c2-48a8edb9cfb4",
+      "__id": "telegram:0123456789-4",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-4",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-6c9a3b84-3c3d-4b6a-a6e1-cc098564f6cb",
+      "__id": "telegram:0123456789-7",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-7",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-85736dd8-66e3-4391-9323-907f1658291f",
+      "__id": "telegram:0123456789-9",
+      "__reference_path": "tables/uuid-table/mappings/telegram:0123456789-9",
+      "__subcollections": []
+    }
+  ],
+  "translation_cache": [
+    {
+      "en-US": "Hello there",
+      "source": "google_translate_v3",
+      "text": "Hello there",
+      "date": "2019-12-01T16:23:13.082710",
+      "detect_lanaguage_code": "en",
+      "__id": "4e47826698bb4630fb4451010062fadbf85d61427cbdfaed7ad0f23f239bed89",
+      "__reference_path": "translation_cache/4e47826698bb4630fb4451010062fadbf85d61427cbdfaed7ad0f23f239bed89",
+      "__subcollections": []
+    },
+    {
+      "en-US": "To the test!",
+      "source": "google_translate_v3",
+      "text": "Test ad!",
+      "date": "2019-12-01T16:25:29.861503",
+      "detect_lanaguage_code": "la",
+      "__id": "d0a11433e5876ee29bef94143e571e668f4f47d50f92408cd0cc30801f6cc86b",
+      "__reference_path": "translation_cache/d0a11433e5876ee29bef94143e571e668f4f47d50f92408cd0cc30801f6cc86b",
+      "__subcollections": []
+    }
+  ],
+  "nook_conversation_shards": [
+    {
+      "name": "Conversation list #1",
+      "num_shards": 3,
+      "__id": "shard-0",
+      "__reference_path": "nook_conversation_shards/shard-0",
+      "__subcollections": [
+        "conversations"
+      ],
+      "conversations": [
+        {
+          "demographicsInfo": {
+            "age": "36",
+            "gender": "female",
+            "district": "Wajid",
+            "SCOPE": "BAKWAJ0000007"
+          },
+          "messages": [
+            {
+              "tags": [],
+              "translation": "I have been in long queue at IP for most part of the day. What\u2019s going on unicef?",
+              "direction": "MessageDirection.in",
+              "text": "Maanta oo dhan ayaan feel kujiray. Maxaa dhacay UNICEF?",
+              "datetime": "2019-05-01T09:29:20.387114+00:00"
+            },
+            {
+              "tags": [],
+              "translation": "Thanks for letting us know your issue with the UNICEF cash assistance. We are investigating the delays and will inform you as soon as we have more information.",
+              "direction": "MessageDirection.out",
+              "text": "Waad ku mahadsantihiin inaad noo soo sheegtay dhibaatada aad kala kulantay kaalmada lacageed ee UNICEF. Waxaanu baaraynaa dib udaca jiro waana kula soo socosinayanaa wixii macluumaad dheeraad ah.",
+              "datetime": "2019-05-02T09:29:20.387114+00:00"
+            }
+          ],
+          "notes": "",
+          "deidentified_phone_number": "nook-phone-uuid-7e9ec0f8-bee1-4f3c-bf3e-865227c75f3e",
+          "tags": [],
+          "__id": "nook-phone-uuid-7e9ec0f8-bee1-4f3c-bf3e-865227c75f3e",
+          "__reference_path": "nook_conversation_shards/shard-0/conversations/nook-phone-uuid-7e9ec0f8-bee1-4f3c-bf3e-865227c75f3e",
+          "__subcollections": []
+        },
+        {
+          "demographicsInfo": {
+            "gender": "female",
+            "SCOPE": "BAKWAJ0000008",
+            "district": "Xudur",
+            "age": "50"
+          },
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "UNICEF I did not receive my entitlement in full, we are being charged to receive it!",
+              "direction": "MessageDirection.in",
+              "text": "ma helin lacagta xaq aan u lahaa, waxaa nalaga qaatay lacag"
+            },
+            {
+              "datetime": "2019-05-02T09:29:20.387114+00:00",
+              "translation": "We are sorry you had to pay a fee to receive your entitlement, and we\u2019d like to ask you  a few more questions in order to assist you assist you. Who did you pay?",
+              "tags": [],
+              "text": "Waan ka xunnahay inaad bixiso lacag si aad u hesho xaqaaga, waxaanan jeclaan lahayn inaan ku weydiino dhowr su'aalood oo dheeraad ah si aan kuu caawino. Yaad lacagta siisay?",
+              "direction": "MessageDirection.out"
+            },
+            {
+              "tags": [],
+              "translation": "The bank",
+              "direction": "MessageDirection.in",
+              "text": "Bangiga",
+              "datetime": "2019-05-03T09:29:20.387114+00:00"
+            },
+            {
+              "translation": "How much did you pay?",
+              "tags": [],
+              "text": "Immisa lacag ah ayaad bixisay?",
+              "direction": "MessageDirection.out",
+              "datetime": "2019-05-04T09:29:20.387114+00:00"
+            },
+            {
+              "datetime": "2019-05-05T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "I received 5 dollars less than the message said",
+              "direction": "MessageDirection.in",
+              "text": "shan doolar ayaa laigajartay."
+            },
+            {
+              "text": "Ma noo sheegi karta sabaabta lacagta lagaaga qaaday?",
+              "direction": "MessageDirection.out",
+              "datetime": "2019-05-06T09:29:20.387114+00:00",
+              "translation": "Can you tell us why you were asked to pay?",
+              "tags": []
+            },
+            {
+              "tags": [],
+              "translation": "I was told it was an administration fee.",
+              "direction": "MessageDirection.in",
+              "text": "Waxaa laiguyiri waa khidmada maamulka.",
+              "datetime": "2019-05-07T09:29:20.387114+00:00"
+            }
+          ],
+          "notes": "",
+          "tags": [],
+          "unread": false,
+          "deidentified_phone_number": "nook-phone-uuid-85736dd8-66e3-4391-9323-907f1658291f",
+          "__id": "nook-phone-uuid-85736dd8-66e3-4391-9323-907f1658291f",
+          "__reference_path": "nook_conversation_shards/shard-0/conversations/nook-phone-uuid-85736dd8-66e3-4391-9323-907f1658291f",
+          "__subcollections": []
+        },
+        {
+          "deidentified_phone_number": "nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+          "demographicsInfo": {},
+          "messages": [
+            {
+              "direction": "MessageDirection.out",
+              "text": "Test ad!",
+              "datetime": "2019-09-02T06:47:14.267126+00:00",
+              "tags": [],
+              "translation": "Test ad!"
+            },
+            {
+              "tags": [],
+              "translation": "Test ad!",
+              "direction": "MessageDirection.out",
+              "text": "Test ad!",
+              "datetime": "2019-09-02T06:51:14.139242+00:00"
+            },
+            {
+              "datetime": "2019-09-02T06:47:14.267126+00:00",
+              "tags": [],
+              "translation": "To the test!",
+              "direction": "MessageDirection.out",
+              "text": "Test ad!"
+            },
+            {
+              "direction": "MessageDirection.out",
+              "text": "Test ad!",
+              "datetime": "2019-09-02T06:51:14.139242+00:00",
+              "tags": [],
+              "translation": "To the test!"
+            }
+          ],
+          "notes": "",
+          "tags": [],
+          "unread": false,
+          "__id": "nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+          "__reference_path": "nook_conversation_shards/shard-0/conversations/nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+          "__subcollections": []
+        }
+      ]
+    },
+    {
+      "name": "Conversation list #2",
+      "__id": "shard-1",
+      "__reference_path": "nook_conversation_shards/shard-1",
+      "__subcollections": [
+        "conversations"
+      ],
+      "conversations": [
+        {
+          "unread": false,
+          "deidentified_phone_number": "nook-phone-uuid-125a04d0-24d3-4dc2-b40a-56d576583991",
+          "demographicsInfo": {
+            "SCOPE": "BAKWAJ0000002",
+            "district": "Wajid",
+            "age": "52",
+            "gender": "female"
+          },
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "I can\u2019t redeem my cash because I\u2019m unwell and hospitalised.",
+              "direction": "MessageDirection.in",
+              "text": "Lacagta ma doonan karo maadama aan xanuunsanahay oo aan cisbitaal kujiro."
+            },
+            {
+              "tags": [],
+              "translation": "We are sorry to hear that. Please send the registered alternate to WVI\u2019s office in Wajid to redeem the cash.",
+              "direction": "MessageDirection.out",
+              "text": "Waan kaxunahay taas. Fadlan soo dir qofka beddelka ah ee u diiwaangashan SCOPE si lacagta laguu soo direy uu uga soo saaro xafiiska WVI ee magalada Wajid.",
+              "datetime": "2019-05-02T09:29:20.387114+00:00"
+            },
+            {
+              "datetime": "2019-05-03T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "Okay, thank you.",
+              "direction": "MessageDirection.in",
+              "text": "Waayahay, mahadsanid."
+            },
+            {
+              "datetime": "2019-05-04T09:29:20.387114+00:00",
+              "translation": "If there is any further assistance you need from UNICEF please tell us",
+              "tags": [],
+              "text": "Hadii ay jirto wax caawinaad dheeraad ah oo aad uga baahan tahay UNICEF fadlan noo soo sheeg",
+              "direction": "MessageDirection.out"
+            }
+          ],
+          "notes": "hello\nhere's some more text\nwhat happens when offline?\nand when back online?",
+          "tags": [],
+          "__id": "nook-phone-uuid-125a04d0-24d3-4dc2-b40a-56d576583991",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-125a04d0-24d3-4dc2-b40a-56d576583991",
+          "__subcollections": []
+        },
+        {
+          "deidentified_phone_number": "nook-phone-uuid-2776e51d-752b-4099-9e44-d281f103d5e0",
+          "demographicsInfo": {
+            "gender": "female",
+            "SCOPE": "BAKHUD0000003",
+            "district": "Xudur",
+            "age": "48"
+          },
+          "messages": [
+            {
+              "tags": [],
+              "translation": "I need more money because the amount is not sufficient for all my children.",
+              "direction": "MessageDirection.in",
+              "text": "Waxaan u baahanay lacag dheerad ah madama ee lacagta kufilneen caruurtayda oo dhan.",
+              "datetime": "2019-05-01T09:29:20.387Z"
+            },
+            {
+              "datetime": "2019-05-02T09:29:20.387Z",
+              "tags": [],
+              "translation": "Thanks for letting UNICEF know of your needs. The current cash transfer amount is calculated to cover immediate household needs. Although we appreciate this value may not be sufficient for all households, we need to keep the transfer value at $X to reach as many mothers in your community as possible.",
+              "direction": "MessageDirection.out",
+              "text": "Waad ku mahadsan tahay in aad lawadagtid UNICEF  baahidaada.Lacagta kaashka ah ee waqtigan la bixinayo waxaa loo xisaabiyey in lagu bixiyo baahiyada ee qoyska. Inkasto aan soo dhoweyneyno  haddana waxaa laga yaabaa in dhammaan qoysasku aaney xaaladdoodu sinen  waxaan ku khasbannahay in qiimaha lacagta aan bixinno uu $X ahaado si aan u gaarno hooyoyinka ugu badan ee baahida qaban."
+            }
+          ],
+          "notes": "",
+          "tags": [],
+          "unread": true,
+          "__id": "nook-phone-uuid-2776e51d-752b-4099-9e44-d281f103d5e0",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-2776e51d-752b-4099-9e44-d281f103d5e0",
+          "__subcollections": []
+        },
+        {
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387Z",
+              "tags": [
+                "tag-297be1c5"
+              ],
+              "translation": "Hi, I have lost my SCOPE card. Please help.",
+              "direction": "MessageDirection.in",
+              "text": "Waad salaamantihiin. Karka suul saarka baa igalumay. Fadlan icaawiya"
+            },
+            {
+              "datetime": "2019-05-02T09:29:20.387Z",
+              "id": "nook-message-3437523623ds3937d9d73-etc",
+              "tags": [],
+              "translation": "We apologise for any inconvenience caused and will help you access your entitlement again. We need to ask you a few questions so that we can get a new SCOPE card issued for you.",
+              "direction": "MessageDirection.out",
+              "text": "Waxaan raaligelineynaa wixii dhib ah ee lakulantay. Waxaan iskudayeenaa inaan kaa caawino arintaan. Waxaan u baahannahay inaan ku weydiino dhowr su'aalood si laguugu soo saaro kaar cusub ee SCOPE"
+            },
+            {
+              "datetime": "2019-05-03T09:29:20.387Z",
+              "id": "nook-message-343757dd87ds3937d9d73-etc",
+              "tags": [
+                "tag-297be1c5"
+              ],
+              "translation": "When did you last collect your cash?",
+              "direction": "MessageDirection.out",
+              "text": "Goorma ayaa kugu dambaysay lacagta oo aad qaadato?"
+            },
+            {
+              "datetime": "2019-05-04T09:29:20.387Z",
+              "tags": [],
+              "translation": "Two months ago.",
+              "direction": "MessageDirection.in",
+              "text": "Labo bil ka hor."
+            },
+            {
+              "datetime": "2019-05-05T09:29:20.387Z",
+              "tags": [],
+              "translation": "Thank you. What is the name of the alternate registered to collect the cash?",
+              "direction": "MessageDirection.out",
+              "text": "Mahadsanid. Waa maxay magaca qofka beddelka ah ee u diiwaangashan kaarka SCOPE?"
+            },
+            {
+              "text": "Amina Mohamed, waa walaasheey.",
+              "direction": "MessageDirection.in",
+              "datetime": "2019-05-06T09:29:20.387Z",
+              "translation": "Amina Mohamed, she\u2019s my sister.",
+              "tags": []
+            },
+            {
+              "datetime": "2019-05-07T09:29:20.387Z",
+              "tags": [],
+              "translation": "Thank you, we\u2019ll get back to you as soon as we can",
+              "direction": "MessageDirection.out",
+              "text": "Mahadsanid, waan kugu soo warcelin doonaa."
+            }
+          ],
+          "notes": "Notes:\n\nSCOPE ID: BAKWAJ0000004\nAge: 28\nLast access: 2 months ago\nAlternate: Amina Mohamed, sister",
+          "tags": [
+            "tag-14ea0e13",
+            "tag-acc357d0",
+            "tag-0aa8b45a"
+          ],
+          "unread": false,
+          "deidentified_phone_number": "nook-phone-uuid-3502c88e-3582-4895-96c2-48a8edb9cfb4",
+          "demographicsInfo": {
+            "gender": "female",
+            "SCOPE": "BAKWAJ0000004",
+            "district": "Wajid",
+            "age": "28"
+          },
+          "__id": "nook-phone-uuid-3502c88e-3582-4895-96c2-48a8edb9cfb4",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-3502c88e-3582-4895-96c2-48a8edb9cfb4",
+          "__subcollections": []
+        },
+        {
+          "unread": false,
+          "deidentified_phone_number": "nook-phone-uuid-41c30eb1-248b-497e-bc99-a0918d74f76c",
+          "demographicsInfo": {
+            "gender": "female",
+            "district": "Wajid",
+            "SCOPE": "BAKWAJ0000004",
+            "age": "28"
+          },
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387Z",
+              "translation": "Hi, I have lost my SCOPE card. Please help.",
+              "tags": [
+                "tag-6d70dbc8"
+              ],
+              "text": "Waad salaamantihiin. Karka suul saarka baa igalumay. Fadlan icaawiya",
+              "direction": "MessageDirection.in"
+            },
+            {
+              "text": "Waxaan raaligelineynaa wixii dhib ah ee lakulantay. Waxaan iskudayeenaa inaan kaa caawino arintaan. Waxaan u baahannahay inaan ku weydiino dhowr su'aalood si laguugu soo saaro kaar cusub ee SCOPE",
+              "direction": "MessageDirection.out",
+              "datetime": "2019-05-02T09:29:20.387Z",
+              "translation": "We apologise for any inconvenience caused and will help you access your entitlement again. We need to ask you a few questions so that we can get a new SCOPE card issued for you.",
+              "tags": []
+            },
+            {
+              "datetime": "2019-05-03T09:29:20.387Z",
+              "tags": [],
+              "translation": "When did you last collect your cash?",
+              "direction": "MessageDirection.out",
+              "text": "Goorma ayaa kugu dambaysay lacagta oo aad qaadato?"
+            },
+            {
+              "datetime": "2019-05-04T09:29:20.387Z",
+              "tags": [],
+              "translation": "Two months ago.",
+              "direction": "MessageDirection.in",
+              "text": "Labo bil ka hor."
+            },
+            {
+              "tags": [],
+              "translation": "Thank you. What is the name of the alternate registered to collect the cash?",
+              "direction": "MessageDirection.out",
+              "text": "Mahadsanid. Waa maxay magaca qofka beddelka ah ee u diiwaangashan kaarka SCOPE?",
+              "datetime": "2019-05-05T09:29:20.387Z"
+            },
+            {
+              "direction": "MessageDirection.in",
+              "text": "Amina Mohamed, waa walaasheey.",
+              "datetime": "2019-05-06T09:29:20.387Z",
+              "tags": [],
+              "translation": "Amina Mohamed, she\u2019s my sister."
+            },
+            {
+              "datetime": "2019-05-07T09:29:20.387Z",
+              "tags": [],
+              "translation": "Thank you, we\u2019ll get back to you as soon as we can",
+              "direction": "MessageDirection.out",
+              "text": "Mahadsanid, waan kugu soo warcelin doonaa."
+            },
+            {
+              "translation": "Thank you. We will process a new SCOPE card and send it to the WVI office. You will receive an SMS when the card is ready for collection.",
+              "tags": [],
+              "text": "Mahadsanid. Waxaanu kuu samayn doonaa kaar SCOPE oo cusub oo kaqaadan kartid xafiiska WVI. Waxaad heli doontaa fariin marka uu kaarkaagu diyaar uu yahay",
+              "direction": "MessageDirection.out",
+              "datetime": "2019-05-08T09:29:20.387Z"
+            },
+            {
+              "datetime": "2019-05-09T09:29:20.387Z",
+              "translation": "Your new SCOPE card is ready for collection at the WVI office. They will verify your photo and re-take your fingerprints so that you can access your entitlement easily.",
+              "tags": [],
+              "text": "Kaarkaga cusubi ee SCOPE waa diyaar fadlan kadoono xafiiska WVI. Waxaa la xaqiijin doonaa sawirkaaga iyo in dib lagaaga qaado faraha si ay kuku fududaato helida lacagta aad xaqa uleedahay.",
+              "direction": "MessageDirection.out"
+            },
+            {
+              "datetime": "2019-05-10T09:29:20.387Z",
+              "tags": [],
+              "translation": "Thank you UNICEF",
+              "direction": "MessageDirection.in",
+              "text": "Mahadsanid UNICEF"
+            }
+          ],
+          "notes": "",
+          "tags": [
+            "tag-0aa8b45a"
+          ],
+          "__id": "nook-phone-uuid-41c30eb1-248b-497e-bc99-a0918d74f76c",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-41c30eb1-248b-497e-bc99-a0918d74f76c",
+          "__subcollections": []
+        },
+        {
+          "demographicsInfo": {
+            "gender": "male",
+            "SCOPE": "BAKWAJ0000006",
+            "district": "Wajid",
+            "age": "54"
+          },
+          "messages": [
+            {
+              "direction": "MessageDirection.in",
+              "text": "Safaafka aad ayeey u dheeryihiin waxaan dadka kamid ah hoyooyin ilmo sito, kuwo xaamilo ah iyo wayeelba",
+              "datetime": "2019-05-01T09:29:20.387Z",
+              "tags": [],
+              "translation": "The queues are too long and there are pregnant women, those with children and elderly people among us."
+            }
+          ],
+          "notes": "",
+          "tags": [],
+          "unread": true,
+          "deidentified_phone_number": "nook-phone-uuid-6c9a3b84-3c3d-4b6a-a6e1-cc098564f6cb",
+          "__id": "nook-phone-uuid-6c9a3b84-3c3d-4b6a-a6e1-cc098564f6cb",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-6c9a3b84-3c3d-4b6a-a6e1-cc098564f6cb",
+          "__subcollections": []
+        },
+        {
+          "deidentified_phone_number": "nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+          "demographicsInfo": {},
+          "messages": [
+            {
+              "direction": "MessageDirection.out",
+              "text": "Test ad!",
+              "datetime": "2019-09-02T06:47:14.267075+00:00",
+              "tags": [],
+              "translation": "Test ad!"
+            },
+            {
+              "datetime": "2019-09-02T06:51:14.139177+00:00",
+              "translation": "Test ad!",
+              "tags": [],
+              "text": "Test ad!",
+              "direction": "MessageDirection.out"
+            },
+            {
+              "direction": "MessageDirection.out",
+              "text": "Test ad!",
+              "datetime": "2019-09-02T06:47:14.267075+00:00",
+              "tags": [],
+              "translation": "To the test!"
+            },
+            {
+              "datetime": "2019-09-02T06:51:14.139177+00:00",
+              "translation": "To the test!",
+              "tags": [],
+              "text": "Test ad!",
+              "direction": "MessageDirection.out"
+            }
+          ],
+          "notes": "",
+          "tags": [],
+          "unread": false,
+          "__id": "nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+          "__reference_path": "nook_conversation_shards/shard-1/conversations/nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+          "__subcollections": []
+        }
+      ]
+    },
+    {
+      "name": "Conversation list #3",
+      "__id": "shard-2",
+      "__reference_path": "nook_conversation_shards/shard-2",
+      "__subcollections": [
+        "conversations"
+      ],
+      "conversations": [
+        {
+          "unread": false,
+          "deidentified_phone_number": "nook-phone-uuid-05caf6eb-4277-433a-ab9b-f34e91365784",
+          "demographicsInfo": {
+            "age": "32",
+            "gender": "female",
+            "SCOPE": "BAKHUD0000001",
+            "district": "Xudur"
+          },
+          "messages": [
+            {
+              "datetime": "2019-05-30T11:20:08.362255+00:00",
+              "tags": [],
+              "translation": "This is an important message from UNICEF to inform you that there will be delays in the cash distribution. We will update you once the cash is ready. Thank you.",
+              "direction": "MessageDirection.out",
+              "text": "Tani waa farriin muhiim ah oo ka socota UNICEF si ay kuugu sheegto in ay jirto dib u dhac xaga qaybinta lacagta caddaanka ah. Waanu kula socodsiin doonaa markii lacagta diyaar tahay. Mahadsanid."
+            },
+            {
+              "datetime": "2019-05-31T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "Thank you UNICEF",
+              "direction": "MessageDirection.in",
+              "text": "Mahadsanid UNICEF"
+            }
+          ],
+          "notes": "more text and yet more text\nand a new line x\nThis is some more information.\n\nHow about a really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really really long message.",
+          "tags": [
+            "tag-0aa8b45a"
+          ],
+          "__id": "nook-phone-uuid-05caf6eb-4277-433a-ab9b-f34e91365784",
+          "__reference_path": "nook_conversation_shards/shard-2/conversations/nook-phone-uuid-05caf6eb-4277-433a-ab9b-f34e91365784",
+          "__subcollections": []
+        },
+        {
+          "deidentified_phone_number": "nook-phone-uuid-51524bde-4de4-4322-b25c-4dded9360930",
+          "demographicsInfo": {
+            "SCOPE": "BAKWAJ0000005",
+            "district": "Wajid",
+            "age": "62",
+            "gender": "female"
+          },
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387114+00:00",
+              "tags": [],
+              "translation": "We are queueing in the sun for hours. UNICEF please release the money.",
+              "direction": "MessageDirection.in",
+              "text": "Qoraxda ayaan feel kugalnaa mudo dhan saacado. Fadlan lacagta noo soo daya UNICEF."
+            }
+          ],
+          "notes": "",
+          "tags": [
+            "tag-14ea0e13"
+          ],
+          "unread": true,
+          "__id": "nook-phone-uuid-51524bde-4de4-4322-b25c-4dded9360930",
+          "__reference_path": "nook_conversation_shards/shard-2/conversations/nook-phone-uuid-51524bde-4de4-4322-b25c-4dded9360930",
+          "__subcollections": []
+        },
+        {
+          "messages": [
+            {
+              "datetime": "2019-05-01T09:29:20.387Z",
+              "translation": "My child is unwell and I can\u2019t afford to buy medication.",
+              "tags": [
+                "tag-5b530db6"
+              ],
+              "text": "Ilmahaygu ayaa xanuunsan mana awoodi karo inaan u iibiyo daawo.",
+              "direction": "MessageDirection.in"
+            }
+          ],
+          "notes": "",
+          "tags": [
+            "tag-14ea0e13",
+            "tag-0aa8b45a"
+          ],
+          "unread": true,
+          "deidentified_phone_number": "nook-phone-uuid-91755b17-3f7e-429c-934c-9ed402d715f7",
+          "demographicsInfo": {
+            "district": "Wajid",
+            "SCOPE": "BAKWAJ0000009",
+            "age": "30",
+            "gender": "female"
+          },
+          "__id": "nook-phone-uuid-91755b17-3f7e-429c-934c-9ed402d715f7",
+          "__reference_path": "nook_conversation_shards/shard-2/conversations/nook-phone-uuid-91755b17-3f7e-429c-934c-9ed402d715f7",
+          "__subcollections": []
+        }
+      ]
+    }
+  ]
+}

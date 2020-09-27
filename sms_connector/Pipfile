@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+katikati-pylib = {git = "git@github.com/larksystems/Katikati-PyLib.git", editable = true, ref = "63b510c32bb80f54093385036d4273d1e654dab0"}
+engine-pylib = {git = "git@github.com/larksystems/Engine-PyLib.git", editable = true, ref = "6d0db47984405b485cda058b6d2b4973727abcff"}
+# RapidProTools is pinned to a specific version that
+# 1) breaks up multiple SMS send requests into groups of 100
+# 2) performs an interrupt before send
+# 3) does not send if the interrupt fails
+# For more details, see https://github.com/larksystems/Katikati-Core/issues/247
+RapidProTools = {git = "https://github.com/larksystems/RapidProTools", editable = true, ref = "27d8a10960232260eb7089b018ac459fdfb05e79"}
+CoreDataModules = {git = "https://www.github.com/AfricasVoices/CoreDataModules", editable = true}
+PipelineInfrastructure = {git = "https://www.github.com/AfricasVoices/PipelineInfrastructure", editable = true}
+pytz = "*"
+python-dateutil = ">=2.8.0"  # Need this minimum so that isoparse handles T24:00:00 correctly.
+google-cloud-storage = "*"
+google-cloud-firestore = ">=1.6.0"
+google-cloud-pubsub = "*"
+google-cloud = "*"
+firebase_admin = "*"
+grpcio = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"

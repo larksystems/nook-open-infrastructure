@@ -1,0 +1,76 @@
+{
+  "tables/uuid-table/mappings": [
+    {
+      "uuid": "nook-phone-uuid-91755b17-3f7e-429c-934c-9ed402d715f7",
+      "__id": "tel:+0123456789-10",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-10",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-c002522a-4005-454f-b3db-3e161a778576",
+      "__id": "tel:+0123456789-11",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-11",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-2776e51d-752b-4099-9e44-d281f103d5e0",
+      "__id": "tel:+0123456789-3",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-3",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-41c30eb1-248b-497e-bc99-a0918d74f76c",
+      "__id": "tel:+0123456789-5",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-5",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-51524bde-4de4-4322-b25c-4dded9360930",
+      "__id": "tel:+0123456789-6",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-6",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-7e9ec0f8-bee1-4f3c-bf3e-865227c75f3e",
+      "__id": "tel:+0123456789-8",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-8",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-05caf6eb-4277-433a-ab9b-f34e91365784",
+      "__id": "tel:+0123456789-1",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-1",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-f58f1a88-68d7-402f-b0b3-2d2dbc67c91f",
+      "__id": "tel:+0123456789-12",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-12",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-125a04d0-24d3-4dc2-b40a-56d576583991",
+      "__id": "tel:+0123456789-2",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-2",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-3502c88e-3582-4895-96c2-48a8edb9cfb4",
+      "__id": "tel:+0123456789-4",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-4",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-6c9a3b84-3c3d-4b6a-a6e1-cc098564f6cb",
+      "__id": "tel:+0123456789-7",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-7",
+      "__subcollections": []
+    },
+    {
+      "uuid": "nook-phone-uuid-85736dd8-66e3-4391-9323-907f1658291f",
+      "__id": "tel:+0123456789-9",
+      "__reference_path": "tables/uuid-table/mappings/tel:+0123456789-9",
+      "__subcollections": []
+    }
+  ]
+}
