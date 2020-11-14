@@ -32,3 +32,12 @@ gcloud iam service-accounts keys create ~/local_crypto_tokens/$KK_PROJECT.json -
 
 ```
 
+2.5 Assign rights for the service account
+
+```
+gcloud projects add-iam-policy-binding $KK_PROJECT --member="serviceAccount:$KK_PROJECT@$KK_PROJECT.iam.gserviceaccount.com" --role="roles/firebase.admin"
+
+gcloud projects add-iam-policy-binding $KK_PROJECT --member="serviceAccount:$KK_PROJECT@$KK_PROJECT.iam.gserviceaccount.com" --role="roles/pubsub.admin"
+
+```
+
