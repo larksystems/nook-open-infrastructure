@@ -80,7 +80,15 @@ updating the time to the start of the project
 4.3. run 
 ```pipenv --three
 pipenv update
+pipenv shell
 
+python pubsub_handler_cli.py ~/local_crypto_tokens/$KK_PROJECT.json
+```
+
+and in another terminal window run
+
+```
+pipenv shell
 python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PROJECT.json --project-name $KK_PROJECT --credentials-bucket-name $KK_PROJECT-rapidpro-credentials --last-update-token-path ~/GitRepos/Lark/nook-open-infrastructure/setup/rapidpro_sync_token
 
 ```
