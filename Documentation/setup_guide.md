@@ -68,3 +68,19 @@ gcloud services enable --project $KK_PROJECT pubsub.googleapis.com
 3.6 Click on 'Cloud Firestore' and 'Create database', 'start in production mode', set the location to be a 'multi-region' as close to where your users of Nook will be. We typically we use 'eur3 (europe-west)'
 
 3.7 Click 'Enable'
+
+
+## 4. Sync data from RapidPro -> Firebase
+
+4.1. Clone https://github.com/larksystems/nook-open-infrastructure/blob/master/setup/rapidpro_sync_token
+updating the time to the start of the project
+
+4.2. Navigate to nook-open-infrastructure/sms_connector
+
+4.3. run 
+```pipenv --three
+pipenv update
+
+python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PROJECT.json --project-name $KK_PROJECT --credentials-bucket-name $KK_PROJECT-rapidpro-credentials --last-update-token-path ~/GitRepos/Lark/nook-open-infrastructure/setup/rapidpro_sync_token
+
+```
