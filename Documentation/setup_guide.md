@@ -21,3 +21,14 @@ export KK_PROJECT="__NAME_OF_YOUR_GCLOUD_PROJECT__"
 gsutil -mb -p $KK_PROJECT gs://$KK_PROJECT-rapidpro-credentials
 gsutil cp __PATH_TO_THE_CONFIG_FILE__ gs://$KK_PROJECT-rapidpro-credentials
 ```
+
+2.4 Create the service account
+
+```
+gcloud iam service-accounts create $KK_PROJECT --project=$KK_PROJECT --description="katikati-open service account" --display-name="Katikati Open SA"
+
+mkdir ~/local_crypto_tokens
+gcloud iam service-accounts keys create ~/local_crypto_tokens/$KK_PROJECT.json --iam-account $KK_PROJECT@$KK_PROJECT.iam.gserviceaccount.com
+
+```
+
