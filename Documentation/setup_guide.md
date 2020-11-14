@@ -22,7 +22,7 @@ gsutil -mb -p $KK_PROJECT gs://$KK_PROJECT-rapidpro-credentials
 gsutil cp __PATH_TO_THE_CONFIG_FILE__ gs://$KK_PROJECT-rapidpro-credentials
 ```
 
-2.4 Create the service account
+2.4 Create the service account (this will store the crypto token fro the service account in ~/local_crypto_tokens, if you want it to be somewhere else, replace the string below and keep a note of where, you'll need it later)
 
 ```
 gcloud iam service-accounts create $KK_PROJECT --project=$KK_PROJECT --description="katikati-open service account" --display-name="Katikati Open SA"
