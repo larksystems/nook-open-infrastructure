@@ -50,3 +50,21 @@ gcloud projects add-iam-policy-binding $KK_PROJECT --member="serviceAccount:$KK_
 ```
 gcloud services enable --project $KK_PROJECT pubsub.googleapis.com
 ```
+
+
+## 3. Setup Firebase project
+
+3.1. Go to `console.firebase.google.com`
+
+3.2. Click add project
+
+3.3. Select the Google Cloud project you created earlier
+
+3.4. Select 'pay as you go' plan
+
+3.5. Google Analytics is optional for Katikati projects, it's up to you whether to include it or not
+
+3.6. Click 'Add Firebase' and wait for the indicator that Firebase is ready.
+3.6 Click on 'Cloud Firestore' and 'Create database', 'start in production mode', set the location to be a 'multi-region' as close to where your users of Nook will be. We typically we use 'eur3 (europe-west)'
+
+3.7 Click 'Enable'
