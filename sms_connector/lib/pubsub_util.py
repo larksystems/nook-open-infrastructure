@@ -164,7 +164,7 @@ class Publisher:
 
         print("Create topic")
         try:
-            self.client.create_topic(self.topic_path)
+            self.client.create_topic(name=self.topic_path)
             print(f"topic created: {self.topic_path}")
         except NameError as e:
             print(f"Error on topic creation for: {self.topic_path}, {e}")
