@@ -173,5 +173,4 @@ if __name__ == '__main__':
         log.info("Keyboard interrupt")
     finally:
         subscriber.cancel()
-        close_journal()
         log.info("Cleanup complete")
