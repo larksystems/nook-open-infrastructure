@@ -116,6 +116,35 @@ def handle_set_translation(id, opinion):
     print (f"WARNING: handle_set_translation not implemented")
 
 
+def handle_set_suggested_replies(id, opinion):
+    reply_map = {}
+
+    # Mandatory fields
+    reply_map['text'] = opinion["text"]
+    reply_map['translation'] = opinion["translation"]
+    reply_map['__id'] = opinion["__id"]
+    __id = reply_map['__id']
+
+    # Defaulting keys
+    reply_map["shortcut"] = opinion["shortcut"] if "shortcut" in opinion.keys() else ""
+
+    # Optional keys
+    if "seq_no" in opinion.keys():
+        reply_map["seq_no"] = opinion["seq_no"]
+    if "category" in opinion.keys():
+        reply_map["category"] = opinion["category"]
+    if "group_id" in opinion.keys():
+        reply_map["group_id"] = opinion["group_id"]
+    if "group_description" in opinion.keys():
+        reply_map["group_description"] = opinion["group_description"]
+    if "index_in_group" in opinion.keys():
+        reply_map["index_in_group"] = opinion["index_in_group"]
+
+    # Perform immediate write
+    firebase_client.document(
+        f'suggested_replies/{__id}').set(reply_map)
+
+
 def _create_empty_conversation_map(conversation_id):
     return {
         "deidentified_phone_number" : conversation_id,
@@ -136,5 +165,6 @@ NAMESPACE_REACTORS = {
     "nook_messages/add_tags" : handle_add_message_tags,
     "nook_messages/remove_tags" : handle_remove_message_tags,
     "nook_messages/set_translation" : handle_set_translation,
-    "sms_raw_msg" : handle_sms_raw_msg
+    "sms_raw_msg" : handle_sms_raw_msg,
+    "nook/set_suggested_replies" : handle_set_suggested_replies
 }
