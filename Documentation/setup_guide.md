@@ -49,6 +49,7 @@ gcloud projects add-iam-policy-binding $KK_PROJECT --member="serviceAccount:$KK_
 
 ```
 gcloud services enable --project $KK_PROJECT pubsub.googleapis.com
+gcloud services enable --project $KK_PROJECT cloudbuild.googleapis.com
 ```
 
 
@@ -83,6 +84,7 @@ pipenv update
 pipenv shell
 
 python pubsub_handler_cli.py ~/local_crypto_tokens/$KK_PROJECT.json
+
 ```
 
 and in another terminal window run
@@ -107,6 +109,9 @@ python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PRO
 
 5.6. Switch to the config view in the firebase SDK and copy the listed contents into the file that you cloned in step (5.2). Note that the configuration in firebase needs the key-names double-quoting in order to be valid JSON
 
+5.7. Navigate to https://github.com/larksystems/nook/tree/master/tool
 
+5.8. Run `./deploy_webapp.sh ../webapp/web/assets/firebase_constants.json ~/local_crypto_tokens/$KK_PROJECT.json`
 
+Depending on the configuration options - you may need to enable additional APIs during this ( - you'll be given instructions on the command line if so - please follow them.
 
