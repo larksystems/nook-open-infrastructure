@@ -92,3 +92,21 @@ pipenv shell
 python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PROJECT.json --project-name $KK_PROJECT --credentials-bucket-name $KK_PROJECT-rapidpro-credentials --last-update-token-path ~/GitRepos/Lark/nook-open-infrastructure/setup/rapidpro_sync_token
 
 ```
+
+## 5. Setup Nook deployment configuration
+
+5.1. Clone the Nook repo: https://github.com/larksystems/nook
+
+5.2. Clone https://github.com/larksystems/nook-open-infrastructure/blob/master/setup/firebase_constants.json to the location of this folder https://github.com/larksystems/nook/tree/master/webapp/web/assets on your disk
+
+5.3. Log in to https://console.firebase.google.com/
+
+5.4. Add the support email if needed
+
+5.5. Add a web project to the firebase instance
+
+5.6. Switch to the config view in the firebase SDK and copy the listed contents into the file that you cloned in step (5.2).
+
+
+
+
