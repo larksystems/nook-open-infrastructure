@@ -105,7 +105,7 @@ python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PRO
 
 5.5. Add a web project to the firebase instance
 
-5.6. Switch to the config view in the firebase SDK and copy the listed contents into the file that you cloned in step (5.2).
+5.6. Switch to the config view in the firebase SDK and copy the listed contents into the file that you cloned in step (5.2). Note that the configuration in firebase needs the key-names double-quoting in order to be valid JSON
 
 
 
