@@ -25,11 +25,9 @@ def process_buffer():
         for (namespace, opinion) in opinion_buffer:
             print (f" processing {namespace} : {opinion}")
             assert namespace in NAMESPACE_REACTORS
-            id = opinion["deidentified_phone_number"]
-            _ensure_conversation_loaded(id)
 
             reactor = NAMESPACE_REACTORS[namespace]
-            reactor(id, opinion)
+            reactor(opinion)
         print (f"Processing complete")
         opinion_buffer = []
         _clean()
@@ -70,7 +68,9 @@ def _compute_message_id(opinion):
 #   'text': 'T2',
 #   'direction': 'in'
 # }
-def handle_sms_raw_msg(id, opinion):
+def handle_sms_raw_msg(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     created_on = opinion["created_on"]
     text = opinion["text"]
     direction = opinion['direction']
@@ -88,42 +88,59 @@ def handle_sms_raw_msg(id, opinion):
     _dirty_list_ids.add(id)
 
 
-def handle_add_conversation_tags(id, opinion):
+def handle_add_conversation_tags(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     for tag in opinion["tags"]:
         conversations_map[id]["tags"].add(tag)
     _dirty_list_ids.add(id)
 
-def handle_remove_conversation_tags(id, opinion):
+def handle_remove_conversation_tags(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     for tag in opinion["tags"]:
         conversations_map[id]["tags"].remove(tag)
     _dirty_list_ids.add(id)
 
-def handle_set_notes(id, opinion):
+def handle_set_notes(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     conversations_map[id]["notes"] = opinion["notes"]
     _dirty_list_ids.add(id)
 
-def handle_set_unread(id, opinion):
-    conversations_map[id]["unread"] = True
-    _dirty_list_ids.add(id)
+def handle_set_unread(opinion):
+    print (f"WARNING: handle_set_unread not implemented")
 
-def handle_add_message_tags(id, opinion):
+    # id = opinion["deidentified_phone_number"]
+    # _ensure_conversation_loaded(id)
+    # conversations_map[id]["unread"] = True
+    # _dirty_list_ids.add(id)
+
+def handle_add_message_tags(opinion):
+    # id = opinion["deidentified_phone_number"]
+    # _ensure_conversation_loaded(id)
     print (f"WARNING: handle_add_message_tags not implemented")
 
-def handle_remove_message_tags(id, opinion):
+def handle_remove_message_tags(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     print (f"WARNING: handle_remove_message_tags not implemented")
 
-def handle_set_translation(id, opinion):
+def handle_set_translation(opinion):
+    id = opinion["deidentified_phone_number"]
+    _ensure_conversation_loaded(id)
     print (f"WARNING: handle_set_translation not implemented")
 
 
-def handle_set_suggested_replies(id, opinion):
+def handle_set_suggested_replies(opinion):
     reply_map = {}
 
     # Mandatory fields
     reply_map['text'] = opinion["text"]
     reply_map['translation'] = opinion["translation"]
-    reply_map['__id'] = opinion["__id"]
-    __id = reply_map['__id']
+    # reply_map['__id'] = opinion["__id"]
+    # __id = reply_map['__id']
+    __id = opinion["__id"]
 
     # Defaulting keys
     reply_map["shortcut"] = opinion["shortcut"] if "shortcut" in opinion.keys() else ""
@@ -142,7 +159,7 @@ def handle_set_suggested_replies(id, opinion):
 
     # Perform immediate write
     firebase_client.document(
-        f'suggested_replies/{__id}').set(reply_map)
+        f'suggestedReplies/{__id}').set(reply_map)
 
 
 def _create_empty_conversation_map(conversation_id):
