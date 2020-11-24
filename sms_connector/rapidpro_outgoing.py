@@ -86,9 +86,9 @@ def process_message_impl(message):
         urns = []
 
         for urn in dirty_urns:
-            if not urn.find("tel:+") >= 0:
-                print (f"WARNING: SKIPPING SEND TO bad {urn}")
-                continue
+            # if not urn.find("tel:+") >= 0:
+                # print (f"WARNING: SKIPPING SEND TO bad {urn}")
+                # continue
             urns.append(urn)
 
         # Break into groups of 100

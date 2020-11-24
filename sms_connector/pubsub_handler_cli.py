@@ -9,6 +9,9 @@ from lib import pubsub_util
 from lib.pubsub_util import Subscriber, MessageSequencer, Publisher
 from lib.utils import utcnow
 import lib.opinion_handlers
+from firebase_admin import credentials
+from firebase_admin import firestore
+import firebase_admin
 
 
 log = None
@@ -17,16 +20,6 @@ subscription = None
 
 # The publisher used to send outgoing sms requests to the rapidpro adapter
 rapidpro_publisher = None
-
-KNOWN_NAMESPACES_FOR_OPINIONS = set([
-    "nook_conversations/add_tags",
-    "nook_conversations/remove_tags",
-    "nook_conversations/set_notes",
-    "nook_conversations/set_unread",
-    "nook_messages/add_tags",
-    "nook_messages/remove_tags",
-    "nook_messages/set_translation",
-])
 
 
 def init_logger(crypto_token_path):
@@ -124,7 +117,7 @@ def process_message_impl(message):
         opinion['_authenticatedUserEmail'] = data_map['_authenticatedUserEmail']
         opinion['_authenticatedUserDisplayName'] = data_map['_authenticatedUserDisplayName']
 
-        if namespace not in KNOWN_NAMESPACES_FOR_OPINIONS:
+        if namespace not in lib.opinion_handlers.NAMESPACE_REACTORS.keys():
             raise Exception(f"Opinion write for unknown namespace: {namespace}")
 
         lib.opinion_handlers.add_opinion(namespace, opinion)
@@ -164,6 +157,11 @@ if __name__ == '__main__':
     sequencer = MessageSequencer(process_message_impl)
     subscriber = Subscriber(crypto_token_file, "sms-channel-topic", "sms-channel-subscription", sequencer.process_message)
     rapidpro_publisher = Publisher(crypto_token_file, "sms-outgoing")
+
+    firebase_cred = credentials.Certificate(crypto_token_file)
+    firebase_admin.initialize_app(firebase_cred)
+    firebase_client = firestore.client()
+    lib.opinion_handlers.firebase_client = firebase_client
     log.info("Setup complete")
 
     try:
