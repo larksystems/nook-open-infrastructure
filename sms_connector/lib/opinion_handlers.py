@@ -132,7 +132,7 @@ def handle_set_translation(opinion):
     print (f"WARNING: handle_set_translation not implemented")
 
 
-def handle_set_suggested_replies(opinion):
+def handle_set_suggested_reply(opinion):
     reply_map = {}
 
     # Mandatory fields
@@ -183,5 +183,5 @@ NAMESPACE_REACTORS = {
     "nook_messages/remove_tags" : handle_remove_message_tags,
     "nook_messages/set_translation" : handle_set_translation,
     "sms_raw_msg" : handle_sms_raw_msg,
-    "nook/set_suggested_replies" : handle_set_suggested_replies
+    "nook/set_suggested_reply" : handle_set_suggested_reply
 }
