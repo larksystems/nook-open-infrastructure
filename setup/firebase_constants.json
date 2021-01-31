@@ -1,0 +1,13 @@
+{
+    "apiKey": "XXXXX",
+    "authDomain": "katikati-open.firebaseapp.com",
+    "databaseURL": "https://katikati-open.firebaseio.com",
+    "projectId": "katikati-open",
+    "storageBucket": "katikati-open.appspot.com",
+    "messagingSenderId": "YYYY",
+    "appId": "ZZZZ",
+    "measurementId": "AAAAA",
+    "logUrl" : "https://europe-west1-katikati-open.cloudfunctions.net/Log",
+    "publishUrl" : "https://europe-west1-katikati-open.cloudfunctions.net/Publish",
+    "statuszUrl" : "https://europe-west1-katikati-open.cloudfunctions.net/StatusZ"
+}

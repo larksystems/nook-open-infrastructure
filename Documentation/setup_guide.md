@@ -49,6 +49,7 @@ gcloud projects add-iam-policy-binding $KK_PROJECT --member="serviceAccount:$KK_
 
 ```
 gcloud services enable --project $KK_PROJECT pubsub.googleapis.com
+gcloud services enable --project $KK_PROJECT cloudbuild.googleapis.com
 ```
 
 
@@ -83,6 +84,7 @@ pipenv update
 pipenv shell
 
 python pubsub_handler_cli.py ~/local_crypto_tokens/$KK_PROJECT.json
+
 ```
 
 and in another terminal window run
@@ -92,3 +94,35 @@ pipenv shell
 python rapidpro_adapter_cli.py --crypto-token-file ~/local_crypto_tokens/$KK_PROJECT.json --project-name $KK_PROJECT --credentials-bucket-name $KK_PROJECT-rapidpro-credentials --last-update-token-path ~/GitRepos/Lark/nook-open-infrastructure/setup/rapidpro_sync_token
 
 ```
+
+## 5. Setup Nook deployment configuration
+
+5.1. Clone the Nook repo: https://github.com/larksystems/nook
+
+5.2. Clone https://github.com/larksystems/nook-open-infrastructure/blob/master/setup/firebase_constants.json to the location of this folder https://github.com/larksystems/nook/tree/master/webapp/web/assets on your disk
+
+5.3. Log in to https://console.firebase.google.com/
+
+5.4. Add the support email if needed
+
+5.5. Add a web project to the firebase instance
+
+5.6. Setup authentication to use the Google Authentication provider (Firebase Console -> Authentication - Sign In method - Google - Enable)
+
+5.7. Switch to the config view in the firebase SDK and copy the listed contents into the file that you cloned in step (5.2). Note that the configuration in firebase needs the key-names double-quoting in order to be valid JSON
+
+5.8. Navigate to https://github.com/larksystems/nook/tree/master/tool
+
+5.9. Run `./deploy_webapp.sh ../webapp/web/assets/firebase_constants.json ~/local_crypto_tokens/$KK_PROJECT.json`
+
+5.10. Check that Nook is now serving correctly by visiting the line associated with 'authDomain' in the config file. You should be able to log in, howerver when you do you'll reach a page that says that you don't have permission to access the dataset.
+
+## 6. Initialise Nook (TODO Replace with the configurator)
+
+6.1. Add yourself as a user to Nook (TODO: Replace this with the configurator) (Firebase Console -> Firestore -> Add collection (users) -> add document (ID == your email address)
+
+6.2. Setup the shard map for the conversations (Firebase Console -> Firestore -> nook_conversation_shards -> shard-0 -> Add field 'num_shards' : 1 (number)
+
+You should now be able to load Nook and see the conversations!
+
+
