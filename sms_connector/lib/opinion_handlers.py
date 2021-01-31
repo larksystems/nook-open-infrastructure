@@ -192,6 +192,18 @@ def handle_set_tag(opinion):
     firebase_client.document(
         f'conversationTags/{__id}').set(tag_map)
 
+def handle_del_suggested_reply(opinion):
+    # TODO replace with single 'tags' when the adjustment has landed
+    _delete_document("suggestedReplies", opinion)
+
+def handle_del_tag(opinion):
+    # TODO replace with single 'tags' when the adjustment has landed
+    _delete_document("messageTags", opinion)
+    _delete_document("conversationTags", opinion)
+
+def _delete_document(firebase_collection_path, opinion):
+    __id = opinion["__id"]
+    firebase_client.document(f'{firebase_collection_path}/{__id}').delete()
 
 def _create_empty_conversation_map(conversation_id):
     return {
@@ -203,8 +215,6 @@ def _create_empty_conversation_map(conversation_id):
         "unread" : True
     }
 
-
-
 NAMESPACE_REACTORS = {
     "nook_conversations/add_tags" : handle_add_conversation_tags,
     "nook_conversations/remove_tags" : handle_remove_conversation_tags,
@@ -215,5 +225,7 @@ NAMESPACE_REACTORS = {
     "nook_messages/set_translation" : handle_set_translation,
     "sms_raw_msg" : handle_sms_raw_msg,
     "nook/set_suggested_reply" : handle_set_suggested_reply,
-    "nook/set_tag": handle_set_tag
+    "nook/del_suggested_reply" : handle_del_suggested_reply,
+    "nook/set_tag": handle_set_tag,
+    "nook/del_tag": handle_del_tag,
 }
