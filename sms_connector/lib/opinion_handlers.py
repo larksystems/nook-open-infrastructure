@@ -162,6 +162,37 @@ def handle_set_suggested_reply(opinion):
         f'suggestedReplies/{__id}').set(reply_map)
 
 
+def handle_set_tag(opinion):
+    tag_map = {}
+
+    # Mandatory fields
+    tag_map['text'] = opinion["text"]
+    tag_map['type'] = opinion["type"]
+    tag_map['groups'] = opinion["groups"]
+    tag_map['visible'] = opinion["visible"]
+    tag_map['isUnifier'] = opinion["isUnifier"]
+
+    __id = opinion["__id"]
+
+    # Defaulting keys
+    tag_map["shortcut"] = opinion["shortcut"] if "shortcut" in opinion.keys() else ""
+
+    # Optional keys
+    if "unifierTagId" in opinion.keys():
+        tag_map["unifierTagId"] = opinion["unifierTagId"]
+    if "unifiesTagIds" in opinion.keys():
+        tag_map["unifiesTagIds"] = opinion["unifiesTagIds"]
+
+    # Perform immediate write
+    # TODO replace with single 'tags' when the adjustment has landed
+    # in Nook
+    firebase_client.document(
+        f'messageTags/{__id}').set(tag_map)
+
+    firebase_client.document(
+        f'conversationTags/{__id}').set(tag_map)
+
+
 def _create_empty_conversation_map(conversation_id):
     return {
         "deidentified_phone_number" : conversation_id,
@@ -183,5 +214,6 @@ NAMESPACE_REACTORS = {
     "nook_messages/remove_tags" : handle_remove_message_tags,
     "nook_messages/set_translation" : handle_set_translation,
     "sms_raw_msg" : handle_sms_raw_msg,
-    "nook/set_suggested_reply" : handle_set_suggested_reply
+    "nook/set_suggested_reply" : handle_set_suggested_reply,
+    "nook/set_tag": handle_set_tag
 }
