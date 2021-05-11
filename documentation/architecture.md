@@ -17,6 +17,6 @@ and to run the messaging adapter and the PubSub handler in a Google Cloud Virtua
 
 Below you can find a diagram summarising the components and how they integrate with each other:
 
-![Katikati open infrastructure architecture](./images/katikati_open_infrastructure_architecture.png).
+![Katikati open infrastructure architecture](./images/katikati_open_infrastructure_architecture.png)
 
 The [setup guide](./setup_guide.md) will guide you through all you need to do to have a deployment of the open source version of Katikati.
