@@ -6,7 +6,13 @@
 
 1.2. Setup the channels that you want to use to send and recieve SMSs
 
-1.3. Locate the API key (click on the org, then about half way down the administrator UI):
+1.3. Locate the API key
+- click on the org:
+
+![RapidPro API key location](./images/rp_admin_location.png)
+
+- then about half way down the administrator UI you will fine the API token:
+
 ![RapidPro API key location](./images/rp_api_key_location.png)
 
 1.4. Make a copy of the [rapidpro_config.json](/setup/rapidpro_config.json) file and replace the API key with the one you've just copied from RapidPro. Keep a note of the path to this json file.
