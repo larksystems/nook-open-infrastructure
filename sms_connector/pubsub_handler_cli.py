@@ -38,34 +38,6 @@ def process_message_impl(message):
     assert "action" in data_map.keys()
     action = data_map["action"]
 
-    if action == "send_to_multi_ids":
-
-        assert "ids" in data_map.keys()
-        assert "message" in data_map.keys()
-
-        # {
-        # "action" : "send_to_multi_ids"
-        # "ids" : [ "nook-uuid-23dsa" ],
-        # "message" : "🐱"
-        # "_authenticatedUserEmail": "who@where.com",
-        # "_authenticatedUserDisplayName": "someone"
-        # }
-
-        sms_datetime = datetime.datetime.utcnow()
-        text = data_map["message"]
-        log.audit(f"pubsub: send_sms {json.dumps(data_map)}")
-
-        rapidpro_publisher.publish({
-            "action": "send_messages",
-            "ids": data_map["ids"],
-            "messages": [ text ],
-        })
-
-        log.debug(f"Acking message {message}")
-        message.ack()
-        log.info(f"Done send_to_multi_ids")
-        return
-
     if action == "send_messages_to_ids":
 
         assert "ids" in data_map.keys()
